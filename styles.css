@@ -1,0 +1,143 @@
+/* General Styles for All Pages */
+body {
+    background-color: #f5f5f5; /* Soft gray background */
+    margin: 5%;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Paragraph Styling */
+p {
+    color: #444;
+    font-size: 1.2em;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 20px;
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #444;
+    margin-top: 30px;
+    border-bottom: 2px solid #007BFF; /* Adds a blue underline */
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Image Styling */
+img {
+    display: block;
+    margin: 20px auto;
+    width: 300px;  /* Fixed width */
+    height: 400px; /* Fixed height */
+    object-fit: cover; /* Ensures uniform size without stretching */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Adds a soft shadow */
+}
+
+/* Hover Effect for Images */
+img:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+    transition: 0.3s ease-in-out;
+}
+
+/* Link Styling */
+a {
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;
+    background-color: #007BFF;
+    padding: 10px 15px;
+    border-radius: 5px;
+    width: 200px;
+    margin: 20px auto;
+    transition: background 0.3s ease-in-out;
+}
+
+a:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Lists */
+dt {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+dd {
+    display: list-item;
+    list-style-type: disc;
+    font-size: 1.2em;
+}
+
+li {
+    font-size: 1.2em;
+}
+
+/* Specific Styles for Contact Page */
+.contact-page {
+    background-color: #f5f5f5; /* Matches the body background */
+    text-align: center;
+    padding: 50px 0; /* Added padding to give more space */
+}
+
+.contact-info {
+    background: #ffffff;
+    padding: 30px; /* Added padding for a more spacious feel */
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto 20px; /* Auto margin for centering */
+}
+
+.contact-info p {
+    font-size: 1.2em;
+    color: #444;
+    margin-bottom: 15px; /* Space between paragraphs */
+}
+
+.contact-info a {
+    display: inline-block;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+    margin-bottom: 10px; /* Space between links */
+}
+
+.contact-info a:hover {
+    color: #0056b3;
+}
+
+/* Button Styling - Removed conflicting styles */
+.button {
+    display: inline-block;
+    text-align: center;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;
+    background-color: #007BFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: auto;
+    margin-top: 20px;
+    transition: background 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
